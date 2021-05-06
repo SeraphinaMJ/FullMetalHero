@@ -1,0 +1,55 @@
+﻿Build started 2015-05-07 오전 4:48:27.
+     1>Project "C:\Users\Student\Desktop\E.M.P\trunk\actiongame0127\ActionGame0127\ActionGame0127.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Student\Desktop\E.M.P\trunk\actiongame0127\\Include\ /ZI /nologo /W4 /WX /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Play.c
+         Play.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Student\Desktop\E.M.P\trunk\actiongame0127\Debug\ActionGame0127.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Student\Desktop\E.M.P\trunk\actiongame0127\\Libs\ fmodex_vc.lib WarpEngine_D.lib opengl32.lib glu32.lib glew32.lib Xinput9_1_0.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Student\Desktop\E.M.P\trunk\actiongame0127\Debug\ActionGame0127.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Student\Desktop\E.M.P\trunk\actiongame0127\Debug\ActionGame0127.lib" /MACHINE:X86 Debug\BombEnemyState.obj
+         Debug\Boss.obj
+         Debug\Boss1Attack.obj
+         Debug\Boss1Move.obj
+         Debug\BulletList.obj
+         Debug\BulletState.obj
+         Debug\Fireball.obj
+         Debug\FireballState.obj
+         Debug\Hp.obj
+         Debug\ShootGuidedProjectile.obj
+         Debug\WeaponManager.obj
+         Debug\Camera.obj
+         Debug\Damaged.obj
+         Debug\Digipen.obj
+         Debug\Emitter.obj
+         Debug\Enemy.obj
+         Debug\EnemyList.obj
+         Debug\EnemyState.obj
+         Debug\Entity.obj
+         Debug\EntityManager.obj
+         Debug\Fall.obj
+         Debug\GameOver.obj
+         Debug\Idle.obj
+         Debug\Jump.obj
+         Debug\Main.obj
+         Debug\Menu.obj
+         Debug\Particle.obj
+         Debug\PhysicsUtil.obj
+         Debug\pinvinciblestates.obj
+         Debug\Play.obj
+         Debug\Player.obj
+         Debug\PS.obj
+         Debug\Roll.obj
+         Debug\Run.obj
+         Debug\ShootMachineGun.obj
+         Debug\ShootMissileGun.obj
+         Debug\soundmanager.obj
+         Debug\StackFSM.obj
+         Debug\State.obj
+         Debug\TeamLogo.obj
+         Debug\TextureList.obj
+         Debug\TileMap.obj
+         Debug\Wingame.obj
+         ActionGame0127.vcxproj -> C:\Users\Student\Desktop\E.M.P\trunk\actiongame0127\Debug\ActionGame0127.exe
+     1>Done Building Project "C:\Users\Student\Desktop\E.M.P\trunk\actiongame0127\ActionGame0127\ActionGame0127.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.42

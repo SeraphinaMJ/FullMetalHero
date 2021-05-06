@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="StateMachine">
+      <UniqueIdentifier>{af9bba6c-9e2e-48d2-99f4-db6c5b8c8cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{953fa277-a0f9-4019-9230-f1aef686d927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{0b01999e-39bf-4f1a-b745-3c10e8450597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{95ee3314-87fa-4c8f-9358-0362ca7732d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Player">
+      <UniqueIdentifier>{5df15819-c4fc-4e95-9d6e-ba9743d2315c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{134aa34a-c3a6-4fe4-91ca-cd9b29e5b7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{65005fa0-249a-4d91-ad05-a7b775f43f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{cdaabb1c-c9b5-40c7-8d18-e0cdac1b6014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Enemy">
+      <UniqueIdentifier>{6b697085-dbc1-46d2-821a-f0d05b2b65f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Enemy\States">
+      <UniqueIdentifier>{c945095e-33f6-4138-a422-30704363edee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Player\MoveStates">
+      <UniqueIdentifier>{80d751c5-bcc0-49bb-87f3-c754968143a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Player\InvincibleStates">
+      <UniqueIdentifier>{a3c37072-5f76-4b6f-b13e-23adba2ef56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem">
+      <UniqueIdentifier>{a4f75c3a-a675-4583-b6cd-5ecb7b103146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Emitter">
+      <UniqueIdentifier>{163b00ee-8a24-4888-9089-e9a3243b7db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Emitter\Particle">
+      <UniqueIdentifier>{32375778-3c7c-4dca-9cfc-21ef18df0ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{36e1aedc-cca0-4ac1-8daf-eea4a65e496c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\BulletManager">
+      <UniqueIdentifier>{7a68320e-20c5-4e91-b523-a4f4318bc99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\BulletManager\Bullet">
+      <UniqueIdentifier>{347344ca-800b-41db-9c66-8f943b76a2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Boss">
+      <UniqueIdentifier>{f21341a8-9823-4658-83b2-c255e43b5071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Boss\MoveState">
+      <UniqueIdentifier>{104a9f6e-7b53-49ff-9c1a-ebecf9f438a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Boss\AttackState">
+      <UniqueIdentifier>{34f3f1d1-6162-481b-be25-365f2366b7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Enemy\States2">
+      <UniqueIdentifier>{4754a3e2-6bbe-4a81-aea7-62ed5345e15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Player\ShootStates">
+      <UniqueIdentifier>{d0a27b71-ad2d-475e-ac33-7dea5db3db0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Boss\Fireball">
+      <UniqueIdentifier>{54260095-e53d-4dc6-932e-b37f83973ddb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StackFSM.c">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="State.c">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Fall.c">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Idle.c">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Jump.c">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Run.c">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Damaged.c">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.c">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.c">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Play.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Roll.c">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.c">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsUtil.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.c">
+      <Filter>Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyState.c">
+      <Filter>Entity\Enemy\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="pinvinciblestates.c">
+      <Filter>Entity\Player\InvincibleStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PS.c">
+      <Filter>ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.c">
+      <Filter>ParticleSystem\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.c">
+      <Filter>ParticleSystem\Emitter\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyList.c">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.c">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundmanager.c">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamLogo.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Digipen.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.c">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureList.c">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletList.c">
+      <Filter>Entity\BulletManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponManager.c">
+      <Filter>Entity\BulletManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.c">
+      <Filter>Entity\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BombEnemyState.c">
+      <Filter>Entity\Enemy\States2</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletState.c" />
+    <ClCompile Include="Hp.c" />
+    <ClCompile Include="ShootGuidedProjectile.c">
+      <Filter>Entity\Player\ShootStates</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootMachineGun.c">
+      <Filter>Entity\Player\ShootStates</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootMissileGun.c">
+      <Filter>Entity\Player\ShootStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1Attack.c">
+      <Filter>Entity\Boss\AttackState</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1Move.c">
+      <Filter>Entity\Boss\MoveState</Filter>
+    </ClCompile>
+    <ClCompile Include="FireballState.c">
+      <Filter>Entity\Boss\Fireball</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.c">
+      <Filter>Entity\Boss\Fireball</Filter>
+    </ClCompile>
+    <ClCompile Include="Wingame.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StackFSM.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Fall.h">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Idle.h">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Jump.h">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Run.h">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Damaged.h">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Play.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Roll.h">
+      <Filter>Entity\Player\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsUtil.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>Entity\Enemy\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="EMP.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="pinvinciblestates.h">
+      <Filter>Entity\Player\InvincibleStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PS.h">
+      <Filter>ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>ParticleSystem\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>ParticleSystem\Emitter\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyList.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundmanager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyInput.h" />
+    <ClInclude Include="TeamLogo.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Digipen.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerInfo.h" />
+    <ClInclude Include="TextureList.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletList.h">
+      <Filter>Entity\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponManager.h">
+      <Filter>Entity\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Entity\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BombEnemyState.h">
+      <Filter>Entity\Enemy\States2</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletState.h" />
+    <ClInclude Include="Hp.h" />
+    <ClInclude Include="ShootGuidedProjectile.h">
+      <Filter>Entity\Player\ShootStates</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootMachineGun.h">
+      <Filter>Entity\Player\ShootStates</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootMissileGun.h">
+      <Filter>Entity\Player\ShootStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1Attack.h">
+      <Filter>Entity\Boss\AttackState</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1Move.h">
+      <Filter>Entity\Boss\MoveState</Filter>
+    </ClInclude>
+    <ClInclude Include="FireballState.h">
+      <Filter>Entity\Boss\Fireball</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Entity\Boss\Fireball</Filter>
+    </ClInclude>
+    <ClInclude Include="WinGame.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mapdata.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="enemydata.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

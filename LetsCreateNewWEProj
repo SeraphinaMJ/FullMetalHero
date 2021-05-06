@@ -1,0 +1,6 @@
+프로젝트 폴더에 Include, Libs폴더 만들고 Include폴더엔 WarpEngine.h, WEGameData.h, Libs폴더엔 WarpEngine.lib, WarpEngine_D.lib넣기
+Project->Properties->C/C++->General->Additional Include Directories에 $(SolutionDir)\Include\ 추가
+Project->Properties->C/C++->General->Warning Level을 Level4(/W4)로 바꾸기, Treats Warnings As Errors를 Yes(/WX)로 바꾸기
+Project->Properties->Linker->General->Additional Library Directories에 $(SolutionDir)\Libs\ 추가
+Project->Properties->Linker->Input->Additional Dependencies에 WarpEngine_D.lib;opengl32.lib;glew32.lib;glu32.lib;Xinput9_1_0.lib;추가
+.vcproj가 있는 폴더에 glew32.dll파일 넣기
